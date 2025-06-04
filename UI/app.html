@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Image Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dropzone.min.css">
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light justify-content-center">
+        <a class="navbar-brand" href="#">Celebrity Image Classifier</a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+        <div class="col card-wrapper" data-player="Angelina_Jolie">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/angelina_jolie.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Angelina Jolie</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>            
+            <div class="col card-wrapper" data-player="Brad_Pitt">
+                    <div class="card border-0">
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/brad_pitt.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-4">
+                            <h5 class="text-uppercase card-title">Brad Pitt</h5>
+                            </p>
+                        </div>
+                    </div>
+            </div>            
+            <div class="col card-wrapper" data-player="Denzel_Washington">
+                    <div class="card border-0">
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/denzel_washington.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-4">
+                            <h5 class="text-uppercase card-title">Denzel Washington</h5>
+                            </p>
+                        </div>
+                    </div>
+            </div>          
+
+            <div class="col card-wrapper" data-player="Hugh_Jackman">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/hugh_jackman.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Hugh Jackman</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>      
+
+            <div class="col card-wrapper" data-player="Jennifer_Lawrence">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/jennifer_lawrence.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Jennifer Lawrence</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="col card-wrapper" data-player="Johnny_Depp">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/johnny_depp.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Johnny Depp</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-wrapper" data-player="Kate_Winslet">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/kate_winslet.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Kate Winslet</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-wrapper" data-player="Leonardo_DiCaprio">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/leonardo_dicaprio.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Leonardo DiCaprio</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-wrapper" data-player="Megan_Fox">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/megan_fox.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Megan Fox</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-wrapper" data-player="Natalie Portman">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/Natalie_Portman.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Natalie Portman</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="col card-wrapper" data-player="Nicole_Kidman">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/nicole_kidman.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Nicole Kidman</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-wrapper" data-player="Robert_Downey_Jr">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/robert_downey_jr.webp" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Robert Downey Jr</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-wrapper" data-player="Sandra_Bullock">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/sandra_bullock.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Sandra Bullock</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-wrapper" data-player="Scarlett_Johansson">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/scarlett_johansson.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Scarlett Johansson</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-wrapper" data-player="Tom_Cruise">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/tom_cruise.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Tom Cruise</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+            <div class="col card-wrapper" data-player="Tom_Hanks">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/tom_hanks.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Tom Hanks</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-wrapper" data-player="Will_Smith">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/will_smith.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h5 class="text-uppercase card-title">Will Smith</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 mx-auto">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <form action="/file-upload" class="dropzone" id="dropzone">
+                            <div class="dz-message needsclick">
+                                <img src="./images/upload.png" width="50vw" height="50vw" alt="Upload icon"><br>
+                                <span class="note needsclick">Drop files here or click to upload</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3 mx-auto">
+                        <button id="submitBtn" type="button" class="btn btn-success">Classify</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-8 error" id="error" >
+                <p>Can't classify image. Classifier was not able to detect face and two eyes properly</p>    
+            </div>
+
+            <div class="col-sm-4" id="resultHolder">
+            </div>
+            <div class="col-sm-4" id="divClassTable">
+                <table id="classTable">
+                        <tr>
+                            <th>Celebrity</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <tr>
+                            <td>Angelina Jolie</td>
+                            <td id="score_Angelina_Jolie"></td>
+                        </tr>
+                        <tr>
+                            <td>Brad Pitt</td>
+                            <td id="score_Brad_Pitt"></td>
+                        </tr>
+                        <tr>
+                            <td>Denzel Washington</td>
+                            <td id="score_Denzel_Washington"></td>
+                        </tr>
+                        <tr>
+                            <td>Hugh Jackman</td>
+                            <td id="score_Hugh_Jackman"></td>
+                        </tr>
+                        <tr>
+                            <td>Jennifer Lawrence</td>
+                            <td id="score_Jennifer_Lawrence"></td>
+                        </tr>
+                        <tr>
+                            <td>Johnny Depp</td>
+                            <td id="score_Johnny_Depp"></td>
+                        </tr>
+                        <tr>
+                            <td>Kate Winslet</td>
+                            <td id="score_Kate_Winslet"></td>
+                        </tr>
+                        <tr>
+                            <td>Leornardo DiCaprio</td>
+                            <td id="score_Leornardo_DiCaprio"></td>
+                        </tr>
+                        <tr>
+                            <td>Megan Fox</td>
+                            <td id="score_Megan_Fox"></td>
+                        </tr>
+                        <tr>
+                            <td>Natalie Portman</td>
+                            <td id="score_Natalie_Portman"></td>
+                        </tr>
+                        <tr>
+                            <td>Nicole Kidman</td>
+                            <td id="score_Nicole_Kidman"></td>
+                        </tr>
+                        <tr>
+                            <td>Robert Downey Jr</td>
+                            <td id="score_Robert_Downey_Jr"></td>
+                        </tr>
+                        <tr>
+                            <td>Sandra Bullock</td>
+                            <td id="score_Sandra_Bullock"></td>
+                        </tr>
+                        <tr>
+                            <td>Scarlett Johansson</td>
+                            <td id="score_Scarlett_Johansson"></td>
+                        </tr>
+                        <tr>
+                            <td>Tom Cruise</td>
+                            <td id="score_Tom_Cruise"></td>
+                        </tr>
+                        <tr>
+                            <td>Tom Hanks</td>
+                            <td id="score_Tom_Hanks"></td>
+                        </tr>
+                        <tr>
+                            <td>Will Smith</td>
+                            <td id="score_Will_Smith"></td>
+                        </tr>
+                </table>
+            </div>
+            
+        </div>
+
+    </div>
+
+</body>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./dropzone.min.js"></script>
+<script src="./app.js"></script>
+</html>
